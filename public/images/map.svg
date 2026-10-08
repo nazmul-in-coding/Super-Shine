@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <rect width="900" height="500" fill="#ebe3d6"/>
+  <path d="M0 330 C140 290 200 370 320 340 C460 304 520 390 640 348 C760 308 820 368 900 330 L900 500 L0 500 Z" fill="#d8cbb8"/>
+  <g stroke="#cfc3b0" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M70 250 L830 250"/>
+    <path d="M220 80 L220 420"/>
+    <path d="M430 80 L430 420"/>
+    <path d="M660 80 L660 420"/>
+    <path d="M70 155 L830 155"/>
+    <path d="M70 345 L830 345"/>
+  </g>
+  <g fill="#8d7349">
+    <circle cx="310" cy="248" r="16"/>
+    <path d="M310 214 l12 34 h-24 z"/>
+  </g>
+  <circle cx="310" cy="248" r="6" fill="#fbf7f1"/>
+  <rect x="338" y="214" width="248" height="54" fill="#fbf7f1"/>
+  <text x="354" y="236" font-family="Cormorant Garamond, serif" font-size="18" fill="#141210">Van Hallstraat 68</text>
+  <text x="354" y="254" font-family="Outfit, sans-serif" font-size="11" fill="#6f685f">1051 HH Amsterdam-West</text>
+</svg>

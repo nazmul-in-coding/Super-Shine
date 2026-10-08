@@ -1,0 +1,21 @@
+{
+  "rewrites": [
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/diensten", "destination": "/diensten.html" },
+    { "source": "/over-ons", "destination": "/over-ons.html" },
+    { "source": "/prijzen", "destination": "/prijzen.html" },
+    { "source": "/werkgebied", "destination": "/werkgebied.html" },
+    { "source": "/reviews", "destination": "/reviews.html" },
+    { "source": "/faq", "destination": "/faq.html" },
+    { "source": "/privacy", "destination": "/privacy.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}
